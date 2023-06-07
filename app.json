@@ -1,0 +1,78 @@
+{
+    "name": "HaYa ダ ᴍᴜsɪᴄ",
+    "description": "سورس حياه الاول على ليبيا",
+    "logo": "https://graph.org/file/300e2214b4bbf1a72feaa.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "الايبي ايدي مكون من 7 ارقام",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ايبي هاش المسترج مع الايبي ايدي",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "توكن بوتك لو ماتعرفش كيف تبي تدير بوت ؟",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "حط هنا كود المونجو .",
+        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
+        "required": false
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "اسم بوت الميوزك متاعك",
+        "value": "HaYa ダ ᴍᴜsɪᴄ",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايديك ولو تبي تخلي مطور ثاني معاك خلي مسافه بين ايديك وايديه",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "جلسة بايروجرام v1",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "مفتاح الهيروكو تلقاه في اعدادات حساب اهيروكو",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق يكون انجليزي وكل حروفه سمول",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ايدي قروب التخزين ولازم يكون بدايته -100",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
