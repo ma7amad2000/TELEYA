@@ -174,7 +174,7 @@ async def startupmessage():
                 
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس حياه الخاص بك .. بنجاح 🫶🥺**",
                 
-                buttons=[(Button.url("𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙿𝙰𝚁𝙺", "https://t.me/HL_BG"),)],
+                buttons=[(Button.url("𝙎𝙊𝙐𝙍𝘾𝙀 𝙃𝘼𝙔𝘼", "https://t.me/HL_BG"),)],
                 
             )
 
@@ -306,7 +306,7 @@ async def mybot():
 
             await asyncio.sleep(1)
 
-            await bot.send_message("@BotFather", f"- بـوت سـبارك المسـاعـد  الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت حيـــاه المسـاعـد  الخـاص بـ  {bot.me.first_name} ")
 
             await asyncio.sleep(3)
 
