@@ -62,7 +62,7 @@ def telethon_session():
     # logging in
     try:
         with TelegramClient(StringSession(), API_ID, API_HASH) as zthon:
-            print("Generating a string session for •ZThon•")
+            print("Generating a string session for •HAYA•")
             try:
                 zthon.send_message(
                     "me",
