@@ -1,78 +1,86 @@
 {
-    "name": "HaYa ダ ᴍᴜsɪᴄ",
-    "description": "سورس حياه الاول على ليبيا",
-    "logo": "https://graph.org/file/300e2214b4bbf1a72feaa.jpg",
-    "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "AnonX",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
-    ],
-    "env": {
-      "API_ID": {
-        "description": "الايبي ايدي مكون من 7 ارقام",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "ايبي هاش المسترج مع الايبي ايدي",
-        "value": "",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "توكن بوتك لو ماتعرفش كيف تبي تدير بوت ؟",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "حط هنا كود المونجو .",
-        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
-        "required": false
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "اسم بوت الميوزك متاعك",
-        "value": "HaYa ダ ᴍᴜsɪᴄ",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "ايديك ولو تبي تخلي مطور ثاني معاك خلي مسافه بين ايديك وايديه",
-        "value": "",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "جلسة بايروجرام v1",
-        "value": "",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "مفتاح الهيروكو تلقاه في اعدادات حساب اهيروكو",
-        "value": "",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "اسم التطبيق يكون انجليزي وكل حروفه سمول",
-        "value": "",
-        "required": false
-      },
-      "LOG_GROUP_ID": {
-        "description": "ايدي قروب التخزين ولازم يكون بدايته -100",
-        "value": "",
-        "required": true
-      }
+  "name": "الحياه",
+  "description": "〔 سـورس الحياه 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت الليبيه : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : زلـزال الهيبـه ",
+  "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/ma7amad2000/TELEYA",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "اســم حســـابك التلـي",
+      "value": ""
     },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
-  }
+    "APP_ID": {
+      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "كـود ايبي هـاش〔 Api hash 〕..",
+      "value": ""
+    },
+    "ENV": {
+      "description": "لا تغيــرهـــا",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغيــرهـــا",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه تضغط Reveal وتنسـخ الكـود لهنـا",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+      "value": "Asia/Baghdad",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22"
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
