@@ -39,7 +39,7 @@ LOGS = logging.getLogger(__name__)
 # code by t.me/zzzzl1l
 ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت سبارك"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ "
-ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ 𝙎𝙋𝘼𝙍𝙆 ─┄─┄─┄─⋆"
+ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙃𝘼𝙔𝘼 ─┄─┄─┄─⋆"
 zed_dev = (6275847466, 6275847466)
 zel_dev = (6275847466, 6275847466)
 zelzal = (6275847466, 6275847466)
