@@ -41,7 +41,7 @@ ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "| : 𖢿"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or ""
 ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or " [𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗭𝗧𝗵𝗼𝗻𝙃𝘼𝙔𝘼]"
 zed_dev = (6275847466, 6275847466)
-zel_dev = (6275847466, 6275847466)
+zel_dev = (6119417529, 6195765774)
 zelzal = (6119417529, 6195765774)
 
 
