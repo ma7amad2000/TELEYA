@@ -134,7 +134,7 @@ async def hunterusername(event):
     try:
         ch = await zedub(
             functions.channels.CreateChannelRequest(
-                title="⎉ صيـد حيــاه 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼 ⎉",
+                title="صيـد حيــاه 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",
                 about="This channel to hunt username by - @HL_BG ",
             )
         )
